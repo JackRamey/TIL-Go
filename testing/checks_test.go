@@ -8,6 +8,7 @@ import (
 
 // Checks are assertions that can be used in testing to make the tests more readable. The concept is taken from this
 // blog post: https://mycodesmells.com/post/testing-go-with-custom-check-functions
+// code examples here: https://github.com/mycodesmells/golang-examples/tree/master/testing/checks
 func TestWithChecks(t *testing.T) {
 	// For each test we can define the check type internally so we don't collide with any other testing files in
 	// the same package. Each check signature may be different based on the values accepted as parameters which
